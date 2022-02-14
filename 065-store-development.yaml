@@ -1,6 +1,4 @@
 app:
   transactions:
     limit-files: 5
-cron:
-  transactions: 
-    send-central: '*/20 * * * * *' 
+    send-central-local: '*/20 * * * * *'
