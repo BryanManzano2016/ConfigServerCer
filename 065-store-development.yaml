@@ -1,3 +1,6 @@
-user:
-  role: Bryan Andres 2
-  password: yyy
+app:
+  transactions:
+    limit-files: 5
+cron:
+  transactions: 
+    send-central: '*/20 * * * * *' 
