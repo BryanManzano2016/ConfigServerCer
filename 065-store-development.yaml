@@ -2,5 +2,5 @@ store:
   code: '065'
 app:
   transactions:
-    limit-files: 5
+    limit-files: 6
     send-central-local: '*/20 * * * * *'
