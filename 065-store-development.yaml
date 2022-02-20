@@ -3,5 +3,5 @@ store:
 app:
   transactions:
     limit-files: 5
-    send-to-central: '*/20 * * * * *'
+    send-to-central: '*/6 * * * * *'
     directory-in: c://ALLC/ARTS/TSLRecords
