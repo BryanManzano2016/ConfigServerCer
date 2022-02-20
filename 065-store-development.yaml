@@ -4,3 +4,4 @@ app:
   transactions:
     limit-files: 6
     send-central-local: '*/20 * * * * *'
+    directory-in: c://ALLC/ARTS/TSLRecords
