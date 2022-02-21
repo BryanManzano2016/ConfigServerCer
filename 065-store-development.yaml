@@ -1,5 +1,7 @@
 store:
   code: '065'
+security:
+  password: this_is_A_PASSWORD_SECURE_2022
 app:
   transactions:
     limit-files: 10
