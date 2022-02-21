@@ -5,6 +5,6 @@ security:
 app:
   transactions:
     limit-files: 4
-    send-to-central: '*/5 * * * * *'
+    send-to-central: '*/7 * * * * *'
     directory-in: c://ALLC/ARTS/TSLRecords
     url-central: http://10.1.8.205:10000
