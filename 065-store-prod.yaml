@@ -4,7 +4,7 @@ security:
   password: this_is_A_PASSWORD_SECURE_2022
 app:
   transactions:
-    limit-files: 6
-    send-to-central: '*/5 * * * * *'
+    limit-files: 7
+    send-to-central: '*/6 * * * * *'
     directory-in: c://ALLC/ARTS/TSLRecords
     url-central: http://10.1.8.205:10000
