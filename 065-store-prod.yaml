@@ -7,4 +7,4 @@ app:
     limit-files: 7
     send-to-central: '*/6 * * * * *'
     directory-in: c://ALLC/ARTS/TSLRecords/OUT
-    url-central: http://10.1.8.205:10000
+    url-central: http://localhost:10000
