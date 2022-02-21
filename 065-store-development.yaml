@@ -2,7 +2,7 @@ store:
   code: '065'
 app:
   transactions:
-    limit-files: 1
+    limit-files: 3
     send-to-central: '*/6 * * * * *'
     directory-in: c://ALLC/ARTS/TSLRecords
     url-central: http://10.1.8.205:10000
