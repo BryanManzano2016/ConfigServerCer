@@ -1,9 +1,6 @@
 eureka:
   client:
    registerWithEureka: false
-#   fetchRegistry: false
    serviceUrl:
      defaultZone: http://localhost:${server.port}/eureka/
-#  instance: 
-#    hostname: localhost
- renewalPercentThreshold: 0.85
+  renewalPercentThreshold: 0.85
