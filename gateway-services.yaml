@@ -1,9 +1,11 @@
+server:
+  port: 10010
 spring:
   cloud:
     gateway:
       routes:
       - id: manager-services
-        uri: http://localhost:10002
+        uri: http://localhost:10015
         predicates:
         - Path=/timestamp/
 management:
