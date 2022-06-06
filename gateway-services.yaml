@@ -19,3 +19,4 @@ eureka:
       defaultZone: ${EUREKA_URI:http://localhost:10005/eureka}
   instance:
     preferIpAddress: true
+# -
