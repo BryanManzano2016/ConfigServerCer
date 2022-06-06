@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: manager-services
+        uri: http://localhost:10002
+        predicates:
+        - Path=/timestamp/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*'
