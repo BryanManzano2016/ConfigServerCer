@@ -3,4 +3,5 @@ eureka:
    registerWithEureka: false
    serviceUrl:
      defaultZone: http://localhost:${server.port}/eureka/
-  renewalPercentThreshold: 0.85
+  server:
+    renewalPercentThreshold: 0.85
